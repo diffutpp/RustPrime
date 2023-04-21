@@ -14,7 +14,7 @@ fn main() {
         for n in 1..max+1{
             if cand%prime[n-1]==0{
                 judge+=1;
-                println!("add{}",cand);
+                //println!("add{}",cand);
                 break;
             }
         }
